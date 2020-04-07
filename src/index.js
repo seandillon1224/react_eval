@@ -9,8 +9,11 @@ import PlayersContainer from "./containers/PlayersContainer";
 export const PlayerContext = React.createContext({});
 
 const App = () => {
+  //initial playerData initial state
   const [playerData, setPlayerData] = useState("");
+  //loading bool on fetch
   const [loadingPlayerData, setLoadingPlayerData] = useState(true);
+  //initial empty favorites array
   const [favoritePlayers, setFavoritePlayers] = useState([]);
 
   useEffect(() => {
