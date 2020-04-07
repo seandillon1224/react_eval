@@ -1,0 +1,26 @@
+.tableContainer {
+  width: 100%;
+}
+table {
+  width: 100%;
+}
+th {
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+tr:nth-child(even) {
+  background-color: #e5e5e5;
+}
+td,
+th {
+  padding: 6px;
+}
+.addToFavorites {
+  border: 1px lightgray solid;
+  border-radius: 5px;
+  display: flex;
+  padding: 4px 8px;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+}
